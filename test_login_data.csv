@@ -1,0 +1,34 @@
+expReason,expResponse,username,password,webBrowser
+correct,200,admin,tajneadmin,Chrome
+correct,200,novak,tajnenovak,Chrome
+spatne heslo ,403,admin,spatneheslo,Chrome
+spatne heslo ,403,admin,hesloKterejeDelsiNezTricetZnaku,Chrome
+spatne heslo ,403,admin,hesloSpecialniZnaky@$,Chrome
+spatne heslo ,403,admin,,Chrome
+chybi prihlasovacijmeno,403,,tajneadmin,Chrome
+chybi prihlasovacijmeno,403,,specZnaky@a$,Chrome
+neexistujici uzivatel,403,adminspatne,tajneadmin,Chrome
+neexistujici uzivatel,403,usernameKtereJeDelsiNezTricetZnaku,heslo,Chrome
+neexistujici uzivatel,403,Spec_znaky!@{]‘^,heslo,Chrome
+correct,200,admin,tajneadmin,IE
+correct,200,novak,tajnenovak,IE
+spatne heslo ,403,admin,spatneheslo,IE
+spatne heslo ,403,admin,hesloKterejeDelsiNezTricetZnaku,IE
+spatne heslo ,403,admin,hesloSpecialniZnaky@$,IE
+spatne heslo ,403,admin,,IE
+chybi prihlasovacijmeno,403,,tajneadmin,IE
+chybi prihlasovacijmeno,403,,specZnaky@a$,IE
+neexistujici uzivatel,403,adminspatne,tajneadmin,IE
+neexistujici uzivatel,403,usernameKtereJeDelsiNezTricetZnaku,heslo,IE
+neexistujici uzivatel,403,Spec_znaky!@{]‘^,heslo,IE
+correct,200,admin,tajneadmin,Firefox
+correct,200,novak,tajnenovak,Firefox
+spatne heslo ,403,admin,spatneheslo,Firefox
+spatne heslo ,403,admin,hesloKterejeDelsiNezTricetZnaku,Firefox
+spatne heslo ,403,admin,hesloSpecialniZnaky@$,Firefox
+spatne heslo ,403,admin,,Firefox
+chybi prihlasovacijmeno,403,,tajneadmin,Firefox
+chybi prihlasovacijmeno,403,,specZnaky@a$,Firefox
+neexistujici uzivatel,403,adminspatne,tajneadmin,Firefox
+neexistujici uzivatel,403,usernameKtereJeDelsiNezTricetZnaku,heslo,Firefox
+neexistujici uzivatel,403,Spec_znaky!@{]‘^,heslo,Firefox
